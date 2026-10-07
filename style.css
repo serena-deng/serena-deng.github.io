@@ -19,3 +19,6 @@
 .hero{height:auto;min-height:max(760px,100svh);max-height:none}.hero-copy{height:auto;min-height:max(760px,100svh);padding-top:165px;padding-bottom:110px}.hero-base{font-family:Arial,"PingFang SC",sans-serif;font-size:21px;letter-spacing:1px;margin:28px 0 10px}.hero .actions{margin:24px 0 0}.hero-image{height:100%}.hero-image figcaption{bottom:32px}.hero .motion-toggle{bottom:28px}.avatar-hit{top:auto;bottom:115px}.hero-copy h1{flex-shrink:0}
 @media(max-width:900px){.hero,.hero-copy{min-height:800px}.hero-copy{padding-top:150px;padding-bottom:120px}.hero .hero-base{font-size:20px}.avatar-hit{bottom:115px}.gini-panel{bottom:160px}}
 @media(max-width:560px){.hero,.hero-copy{min-height:720px}.hero-copy{padding-top:135px;padding-bottom:160px}.hero .hero-base{font-size:19px;margin-top:25px}.hero .actions{margin-top:24px}.avatar-hit{bottom:105px}.hero .motion-toggle{bottom:25px}.gini-panel{bottom:150px}}
+
+/* Keep portrait name clear of motion controls. */
+.hero .hero-image figcaption{left:24px;right:24px;bottom:24px;width:auto;white-space:normal;line-height:1.6}.hero .motion-toggle{bottom:82px;right:5%}@media(max-width:560px){.hero .hero-image figcaption{left:6%;right:6%;bottom:24px;font-size:12px}.hero .motion-toggle{bottom:76px;right:6%}}
