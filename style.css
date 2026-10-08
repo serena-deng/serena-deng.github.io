@@ -22,3 +22,5 @@
 
 /* Keep portrait name clear of motion controls. */
 .hero .hero-image figcaption{left:24px;right:24px;bottom:24px;width:auto;white-space:normal;line-height:1.6}.hero .motion-toggle{bottom:82px;right:5%}@media(max-width:560px){.hero .hero-image figcaption{left:6%;right:6%;bottom:24px;font-size:12px}.hero .motion-toggle{bottom:76px;right:6%}}
+
+.language-switch{position:fixed;top:18px;right:18px;z-index:50;display:flex;gap:2px;padding:4px;background:#17171de8;border:1px solid #ffffff40;border-radius:24px;box-shadow:0 4px 20px #0002}.language-switch button{background:transparent;border:0;color:#ccc;border-radius:18px;padding:5px 10px;font-size:12px;line-height:1.5}.language-switch button[aria-pressed=true]{background:#baa5ff;color:#21182d}header{padding-right:150px}html[lang=en] .hero h1{letter-spacing:1px;font-size:clamp(32px,4vw,62px)}html[lang=en] .metrics strong{font-size:clamp(18px,2vw,28px);white-space:normal}html[lang=en] .section h2{line-height:1.25}html[lang=en] .certificate-item{overflow-wrap:anywhere}@media(max-width:900px){header{padding-right:120px}.language-switch{top:20px;right:12px}html[lang=en] .large-text{font-size:22px}}
