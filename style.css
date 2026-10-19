@@ -42,3 +42,5 @@
 .digital-avatar .serena-face{transform-box:view-box;transform-origin:50% 18%;will-change:transform}.face-window{mask-image:radial-gradient(ellipse at 50% 45%,#000 48%,transparent 76%)}.natural-lips{opacity:0;transform-box:fill-box;transform-origin:center;mask-image:radial-gradient(ellipse,#000 65%,transparent 95%)}.natural-eyelids{opacity:0;mask-image:radial-gradient(ellipse,#000 64%,transparent 95%)}.speaking .digital-avatar .serena-own-arm{animation:none}.digital-avatar{height:390px}.digital-avatar svg{overflow:visible}@media(max-width:600px){.digital-avatar{height:220px}}
 
 .storyboard-download{display:inline-block;margin-left:20px;font-size:13px;border-bottom:1px solid currentColor}.work-card.storyboard{min-width:0}
+
+.work-card.storyboard{grid-column:1/-1;min-height:230px}.work-card.storyboard p{max-width:760px}
